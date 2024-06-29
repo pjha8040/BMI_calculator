@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  font-family: "Cursive", sans-serif;
+  font-size: 3.7rem;
+}
+
+input {
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+button {
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

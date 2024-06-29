@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 text-center">Body Mass Index Calculator</h1>
+      <form action="/" method="post" class="mt-4">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            name="wt"
+            placeholder="Enter Weight in Kgs"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            name="ht"
+            placeholder="Enter Height in meters"
+          />
+        </div>
+        <button type="submit" name="submit" class="btn btn-primary btn-block">
+          Calculate
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
